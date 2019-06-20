@@ -1,0 +1,114 @@
+header {
+  background-color: #2a7bbf;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+
+  div {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    text-indent: 200px;
+  }
+
+  h1 {
+    font-size: 2em;
+    color: rgb(245, 246, 247)
+  }
+}
+
+form {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.alinhamento {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+select,
+  input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 10px 0 50px 0;
+    color: #0e0303;
+  }
+  label {
+    font-weight: bold;
+  }
+
+.cadastrar-mensagem {
+  align-items: center;
+  max-width: 1100px;
+  min-height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.alinhar-botao {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+
+  .button {
+    width: 100%;
+    line-height: 50px;
+    margin: 10px;
+    background: #080808;
+    color: azure;
+    border-radius: 0.5em;
+    width: 200px;
+    background-image: linear-gradient(rgb(131, 127, 127), #080808);
+    font-size: 1em;
+  }
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+.retorno {
+  overflow: auto;
+  max-height: 150px;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid #080808;
+  border-radius: 05px;
+}
+
+.footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #2a7bbf;
+}
+
+
+.retorno-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: block;
+}
